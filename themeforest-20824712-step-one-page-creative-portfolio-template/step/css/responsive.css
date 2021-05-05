@@ -1,0 +1,159 @@
+/*==============================================================================
+
+ * Template Name: Step - One Page Creative Portfolio Template.
+ * Template URI: 
+ * Author: ixTheme
+ * Description: Responsive HTML5 Template
+ * Version: 1.0
+ * Copyright 2017 ixTheme
+
+==============================================================================*/
+
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .hire_me_wrapper div {
+        text-align: center;
+    }
+    .hire_me_wrapper div a {
+        margin-top: 20px;
+    }
+    .contact_wrapper form div.text-right {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .blog_item img {
+        margin: 0 auto;
+    }
+    .blog_links {
+        margin: -35px auto 0;
+        max-width: 400px;
+    }
+    .blog_content {
+        margin-top: 30px;
+    }
+    .address {
+        margin-bottom: 50px;
+    }
+    .service_item .service_item_inner {
+        border-color: #fff;
+    }
+}
+
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+    .about_wrapper::after {
+        background-image: none;
+    }
+    .hire_me_wrapper div {
+        text-align: center;
+    }
+    .hire_me_wrapper div a {
+        margin-top: 20px;
+    }
+    .about_content img {
+        margin-bottom: 30px;
+        max-height: 250px;
+    }
+    .service_item .service_item_inner {
+        border-color: #fff;
+    }
+    .expreince_wrapper .container > div:nth-child(1),
+    .expreince_wrapper .container > div:nth-child(2) {
+        margin-bottom: 50px;
+    }
+    .contact_wrapper form div.text-right {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .blog_content {
+        margin-top: 50px;
+    }
+    .address {
+        margin-bottom: 50px;
+    }
+}
+
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 580px) {
+    .container {
+        width: 400px;
+    }
+}
+
+@media only screen and (min-width: 581px) and (max-width: 680px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media only screen and (min-width: 681px) and (max-width: 767px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+    .container {
+        width: 700px;
+    }
+}
+
+
+/* Mobile : -480px. */
+
+@media only screen and (max-width: 479px) {
+    .container {
+        width: 300px;
+    }
+    nav ul li {
+        line-height: 50px;
+    }
+    nav ul li a {
+        padding: 0 15px;
+    }
+    nav .menu_toggle {
+        right: 20px;
+    }
+    .header_content h1 {
+        font-size: 30px;
+    }
+    .section_header h1 {
+        font-size: 33px;
+    }
+    .section_header p {
+        font-size: 14px;
+    }
+    .section_title p {
+        font-size: 30px;
+    }
+    .about_content span {
+        font-size: 15px;
+    }
+    .about_content p {
+        font-size: 14px;
+    }
+    .service_item_inner i {
+        font-size: 18px;
+        height: 45px;
+        line-height: 45px;
+        width: 45px;
+    }
+    .service_item .service_item_inner {
+        border-color: #fff;
+    }
+    .service_content p {
+        font-size: 14px;
+    }
+    .testimonial_wrapper .item p {
+        font-size: 14px;
+    }
+    .blog_detail span {
+        display: none;
+    }
+}

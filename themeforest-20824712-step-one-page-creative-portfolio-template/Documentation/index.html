@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Documentation for Step - One Page Creative Portfolio Template.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/favicon.ico">
+    
+    <!-- all css here -->
+    <!-- bootstrap v3.3.6 css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <h3 class="template-title text-center">Step - One Page Creative Portfolio Template</h3>
+    <div class="container">
+
+        <div class="borderTop">
+            <p>
+                <strong>
+					Created: 15/10/2017<br>
+					By: Sojon<br>
+					Email: <a href="mailto:sojonislam60@gmail.com">sojonislam60@gmail.com</a>
+				</strong>
+            </p>
+
+            <div class="span-12 last">
+                <p class="prepend-top append-0">Thank you for purchasing my template. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact from <a href="https://themeforest.net/user/ixtheme" target="_blank">here</a>. Thanks so much!</p>
+            </div>
+
+        <h3><strong>What is this?</strong></h3>
+        <p>STEP is an OnePage HTML5 Template built with HTML5 and CSS3 that have well-organized with valid code. This documentation provide you a clear &amp; full guideline for how to use this OnePage Template.</p>
+
+        <p>The template is based on bootstrap library, if you don’t know about bootstrap please take a look at their website http://getbootstrap.com/getting-started/. Actually in this template you will not have to know a lot in bootstrap, just the basic things.</p>
+
+        <p>You can edit the Html file in any text editor, but we prefer to use an html editor like Adobe Dreamweaver.</p>
+        </div>
+        <!-- end div .borderTop -->
+        <h2 style="margin-bottom:30px">Table of Contents</h2>
+    </div>
+
+    <ul id="toc" class="menu list-unstyled list-inline">
+        <li><a href="#htmlStructure">HTML Structure</a></li>
+        <li><a href="#cssFiles">CSS Files and Structure</a></li>
+        <li><a href="#javascript">JavaScript</a></li>
+        <li><a href="#credits">Sources and Credits</a></li>
+    </ul>
+    <div class="hidden_div"></div>
+
+    <div class="container">
+
+<h2 id="htmlStructure"><strong>HTML Structure</strong></h2>
+
+<div class="htmlcodes">
+
+    <!-- logo -->
+    <h3 class="div_details">Logo</h3>
+    <p>To change the logo, replace the <b>img <span class="attr">src</span>=" "</b> with your logo url.</p>
+    <b>Change the <span class="redclr">Red</span> marked values from index page</b>
+    <pre>
+    <span class="tag">&lt;div</span> <span class="attr">class</span>=<span class="tag">&quot;</span><span class="ic">logo</span><span class="tag">&quot;</span><span class="tag">&gt;</span>
+        <span class="cmnt">&lt;!-- change logo here --&gt;</span>
+        <span class="tag">&lt;a</span> <span class="attr">href</span>=<span class="tag">&quot;</span><span class="ic">#home</span><span class="tag">&quot;</span><span class="tag">&gt;</span><span class="tag">&lt;img</span> <span class="attr">src</span>=<span class="tag">&quot;</span><span class="ic"><span class="redbg">img/logo.png</span></span><span class="tag">&quot;</span> <span class="attr">alt</span>=<span class="tag">&quot;</span><span class="ic">step</span><span class="tag">&quot;</span><span class="tag">&gt;</span><span class="tag">&lt;/a<span class="tag">&gt;</span></span>
+    <span class="tag">&lt;/div<span class="tag">&gt;</span></span></pre>
+
+
+    <!-- Menu -->
+    <h3 class="div_details">Menu</h3>
+    <p>To change the menu links, simply edit this code. For example, the contact link is linked to the Contact section.</p>
+    <pre>
+    <span class="tag">&lt;nav </span><span class="attr">class</span>=<span class="tag">&quot;</span><span class="ic">text-center text-uppercase</span><span class="tag">&quot;</span><span class="tag">&gt;</span>
+       <span class="cmnt">.....</span>
+        <span class="tag">&lt;ul<span class="tag">&gt;</span></span>
+            <span class="cmnt">&lt;!-- Menu Items --&gt;</span>
+            <span class="tag">&lt;li<span class="tag">&gt;</span></span><span class="tag">&lt;a</span> <span class="attr">href</span>=<span class="tag">&quot;</span><span class="ic">#home</span><span class="tag">&quot;</span><span class="tag">&gt;</span>Home<span class="tag">&lt;/a<span class="tag">&gt;</span></span><span class="tag">&lt;/li<span class="tag">&gt;</span></span>
+            <span class="tag">&lt;li<span class="tag">&gt;</span></span><span class="tag">&lt;a</span> <span class="attr">href</span>=<span class="tag">&quot;</span><span class="ic">#about</span><span class="tag">&quot;</span><span class="tag">&gt;</span>About<span class="tag">&lt;/a<span class="tag">&gt;</span></span><span class="tag">&lt;/li<span class="tag">&gt;</span></span>
+            <span class="tag">&lt;li<span class="tag">&gt;</span></span><span class="tag">&lt;a</span> <span class="attr">href</span>=<span class="tag">&quot;</span><span class="ic">#portfolio</span><span class="tag">&quot;</span><span class="tag">&gt;</span>Portfolio<span class="tag">&lt;/a<span class="tag">&gt;</span></span><span class="tag">&lt;/li<span class="tag">&gt;</span></span>
+            <span class="tag">&lt;li<span class="tag">&gt;</span></span><span class="tag">&lt;a</span> <span class="attr">href</span>=<span class="tag">&quot;</span><span class="ic">#service</span><span class="tag">&quot;</span><span class="tag">&gt;</span>Service<span class="tag">&lt;/a<span class="tag">&gt;</span></span><span class="tag">&lt;/li<span class="tag">&gt;</span></span>
+            <span class="tag">&lt;li<span class="tag">&gt;</span></span><span class="tag">&lt;a</span> <span class="attr">href</span>=<span class="tag">&quot;</span><span class="ic">#testimonial</span><span class="tag">&quot;</span><span class="tag">&gt;</span>Testimonial<span class="tag">&lt;/a<span class="tag">&gt;</span></span><span class="tag">&lt;/li<span class="tag">&gt;</span></span>
+            <span class="tag">&lt;li<span class="tag">&gt;</span></span><span class="tag">&lt;a</span> <span class="attr">href</span>=<span class="tag">&quot;</span><span class="ic">#blog</span><span class="tag">&quot;</span><span class="tag">&gt;</span>Blogs<span class="tag">&lt;/a<span class="tag">&gt;</span></span><span class="tag">&lt;/li<span class="tag">&gt;</span></span>
+            <span class="tag">&lt;li<span class="tag">&gt;</span></span><span class="tag">&lt;a</span> <span class="attr">href</span>=<span class="tag">&quot;</span><span class="ic">#contact</span><span class="tag">&quot;</span><span class="tag">&gt;</span>Contact<span class="tag">&lt;/a<span class="tag">&gt;</span></span><span class="tag">&lt;/li<span class="tag">&gt;</span></span>
+        <span class="tag">&lt;/ul&gt;</span>
+    <span class="tag">&lt;/nav<span class="tag">&gt;</span></span><span class="cmnt">&lt;!-- end nav menu --&gt;</span></pre>
+
+
+    <!-- Header Contents -->
+    <h3 class="div_details">Header Section</h3>
+    <p>To change the name simply edit this name &quot;Mashuk Raihan.&quot;</p>
+    <p>To change the animated text simply edit the &quot;<b class="tag"><span class="tag">&lt;b</span>&gt;</b>&quot; tags</p>
+    <pre>
+    <span class="tag">&lt;div</span> <span class="attr">class</span>=&quot;<span class="ic">header_content text-center</span>&quot;<span class="tag">&gt;</span>
+        <span class="tag">&lt;div</span> <span class="attr">class</span>=&quot;<span class="ic">container</span>&quot;<span class="tag">&gt;</span>
+            <span class="tag">&lt;div</span> <span class="attr">class</span>=&quot;<span class="ic">table</span>&quot;<span class="tag">&gt;</span>
+                <span class="tag">&lt;div</span> <span class="attr">class</span>=&quot;<span class="ic">table_cell</span>&quot;<span class="tag">&gt;</span>
+                    <span class="tag">&lt;h2</span> <span class="attr">class</span>=&quot;<span class="ic">wow zoomIn</span>&quot; <span class="attr">data-wow-duration</span>=&quot;<span class="ic">.5s</span>&quot; <span class="attr">data-wow-delay</span>=&quot;<span class="ic">.5s</span>&quot;<span class="tag">&gt;</span>Hello, I'm<span class="tag">&lt;/h2&gt;</span>
+                    <span class="tag">&lt;h1</span> <span class="attr">class</span>=&quot;<span class="ic">wow zoomIn</span>&quot; <span class="attr">data-wow-duration</span>=&quot;<span class="ic">.5s</span>&quot; <span class="attr">data-wow-delay</span>=&quot;<span class="ic">.5s</span>&quot;<span class="tag">&gt;</span>Mashuk Raihan.<span class="tag">&lt;/h1&gt;</span>
+                    <span class="tag">&lt;h3</span> <span class="attr">class</span>=&quot;<span class="ic">wow zoomIn cd-headline clip is-full-width</span>&quot; <span class="attr">data-wow-duration</span>=&quot;<span class="ic">.5s</span>&quot; <span class="attr">data-wow-delay</span>=&quot;<span class="ic">.5s</span>&quot;<span class="tag">&gt;</span>I'm a
+                        <span class="tag">&lt;span</span> <span class="attr">class</span>=&quot;<span class="ic">cd-words-wrapper</span>&quot;<span class="tag">&gt;</span>
+                            <span class="cmnt">&lt;!-- change typed-text here --&gt;</span>
+                            <span class="tag">&lt;b</span> <span class="attr">class</span>=&quot;<span class="ic">is-visible</span>&quot;<span class="tag">&gt;</span>Web Designer<span class="tag">&lt;/b&gt;</span>
+                            <span class="tag">&lt;b</span>&gt;Web Developer<span class="tag">&lt;/b&gt;</span>
+                            <span class="tag">&lt;b</span>&gt;Graphics Designer<span class="tag">&lt;/b&gt;</span>
+                        <span class="tag">&lt;/span&gt;</span>
+                    <span class="tag">&lt;/h3&gt;</span>
+                    <span class="cmnt">.....</span>
+                <span class="tag">&lt;/div&gt;</span>
+            <span class="tag">&lt;/div&gt;</span>
+        <span class="tag">&lt;/div&gt;</span>
+    <span class="tag">&lt;/div&gt;</span></pre>
+
+
+    <!-- About Contents -->
+    <h3 class="div_details">About Section</h3>
+    <p>To change the about section avater photo, replace the <b>img <span class="attr">src</span>=" "</b> with your avater url.</p>
+    <b>Change the <span class="redclr">Red</span> marked values from index page</b>
+    <pre>    <span class="tag"><span class="tag">&lt;img</span></span> <span class="attr">class</span>=&quot;<span class="ic">img-responsive img-circle</span>&quot; <span class="attr">src</span>=&quot;<span class="ic"><span class="redbg">img/person.jpg</span></span>&quot; <span class="attr">alt</span>=&quot;<span class="ic">Mr. John</span>&quot;<span class="tag">&gt;</span></pre>
+    
+    
+    <p>To change the <b>Skill</b> value edit the inline-style width from <b><span class="attr">class</span>=&quot;<span class="ic">skillBar</span>&quot;</b> and change the <b>numericTEXT</b> from <b><span class="attr">class</span>=&quot;<span class="ic">skillText</span>&quot;</b> same as <b><span class="attr">class</span>=&quot;<span class="ic">skillBar</span>&quot;</b> width.</p>
+    <b>Change the <span class="redclr">Red</span> marked values from index page</b>
+    <pre>
+    <span class="tag">&lt;div</span> <span class="attr">class</span>=&quot;<span class="ic">skillMain</span>&quot;<span class="tag">&gt;</span>
+        <span class="tag">&lt;div</span> <span class="attr">class</span>=&quot;<span class="ic">skillBar wow slideInLeft</span>&quot; <span class="attr">style</span>=&quot;<span class="ic">width:</span><span class="redbg">92%</span>&quot;<span class="tag">&gt;</span>
+            <span class="tag">&lt;span</span> <span class="attr">class</span>=&quot;<span class="ic">skillText wow zoomIn</span>&quot; <span class="attr">data-wow-delay</span>=&quot;<span class="ic">.6s</span>&quot;<span class="tag">&gt;</span>Web - <span class="redbg">92%</span><span class="tag">&lt;/span&gt;</span>
+        <span class="tag">&lt;/div&gt;</span>
+    <span class="tag">&lt;/div&gt;</span></pre>
+
+
+    <p>To change the <b>Counter</b> value edit the <b>numericTEXT</b> from <b><span class="attr">class</span>=&quot;<span class="ic">counter</span>&quot;</b> and change the name from span tag</p>
+    <b>Change the <span class="redclr">Red</span> marked values from index page</b>
+    <pre>
+    <span class="tag">&lt;section</span> <span class="attr">class</span>=&quot;<span class="ic">expreince_wrapper wow fadeIn</span>&quot;<span class="tag">&gt;</span>
+        <span class="cmnt">.....</span>
+            <span class="tag">&lt;h2</span> <span class="attr">class</span>=&quot;<span class="ic">counter</span>&quot;<span class="tag">&gt;</span><span class="redbg">66</span><span class="tag">&lt;/h2&gt;</span>
+            <span class="tag">&lt;div</span> <span class="attr">class</span>=&quot;<span class="ic">exp_icon</span>&quot;<span class="tag">&gt;</span>
+                <span class="tag">&lt;i</span> <span class="attr">class</span>=&quot;<span class="ic">icofont icofont-users-social</span>&quot;<span class="tag">&gt;</span><span class="tag">&lt;/i&gt;</span>
+            <span class="tag">&lt;/div&gt;</span>
+            <span class="tag">&lt;span&gt;</span><span class="redbg">Happy Clints</span><span class="tag">&lt;/span&gt;</span>
+        <span class="cmnt">.....</span>
+    <span class="tag">&lt;/section&gt;</span></pre>
+
+
+    <!-- Works Contents -->
+    <h3 class="div_details">Works Section</h3>
+    <p>To change the Work Items photo, simplay replace the <b>a <span class="attr">href</span>=" "</b> and <b>img <span class="attr">src</span>=" "</b> with your photo url.</p>
+    <b>Change the <span class="redclr">Red</span> marked values from index page</b>
+    <pre>
+    <span class="tag">&lt;div</span> <span class="attr">class</span>=&quot;<span class="ic">portfolio_item wow fadeIn</span>&quot; <span class="attr">data-wow-delay</span>=&quot;.2s&quot;<span class="tag">&gt;</span>
+        <span class="tag">&lt;div</span> <span class="attr">class</span>=&quot;<span class="ic">portfolio_item_inner</span>&quot;<span class="tag">&gt;</span>
+            <span class="tag">&lt;h3</span>&gt;Web Design<span class="tag">&lt;/h3&gt;</span>
+            <span class="tag">&lt;a</span> <span class="attr">class</span>=&quot;<span class="ic">port_item</span>&quot; href=&quot;<span class="redbg">img/portfolio/01.png</span>&quot;<span class="tag">&gt;</span>
+                <span class="tag">&lt;i</span> <span class="attr">class</span>=&quot;<span class="ic">icofont icofont-unlink</span>&quot;<span class="tag">&gt;</span><span class="tag">&lt;/i&gt;</span>
+            <span class="tag">&lt;/a&gt;</span>
+            <span class="tag">&lt;p&gt;</span>Design Sub Title<span class="tag">&lt;/p&gt;</span>
+        <span class="tag">&lt;/div&gt;</span>
+        <span class="cmnt">&lt;!-- portfolio single item image --&gt;</span>
+        <span class="tag">&lt;img</span> <span class="attr">class</span>=&quot;<span class="ic">img-responsive</span>&quot; <span class="attr">src</span>=&quot;<span class="redbg">img/portfolio/01.png</span>&quot; <span class="attr">alt</span>=&quot;<span class="ic">Design</span>&quot;<span class="tag">&gt;</span>
+    <span class="tag">&lt;/div&gt;</span></pre>
+
+
+    <!-- Testimonial Contents -->
+    <h3 class="div_details">Testimonial Section</h3>
+    <p>To change the Testimonial Items photo, simplay replace the <b>img <span class="attr">src</span>=" "</b> with your photo url.</p>
+    <b>Change the <span class="redclr">Red</span> marked values from index page</b>
+    <pre>
+    <span class="cmnt">&lt;!-- testimonial item image --&gt;</span>
+    <span class="tag">&lt;img</span> <span class="attr">class</span>=&quot;<span class="ic">img-circle img-responsive wow zoomIn</span>&quot; <span class="attr">src</span>=&quot;<span class="redbg">img/testimonial/one.jpg</span>&quot; <span class="attr">alt</span>=&quot;<span class="ic">review</span>&quot;<span class="tag">&gt;</span></pre>
+
+
+    <!-- Blog Contents -->
+    <h3 class="div_details">Blog Section</h3>
+    <p>To change the Bog Items photo, simplay replace the <b>img <span class="attr">src</span>=" "</b> with your photo url.</p>
+    <b>Change the <span class="redclr">Red</span> marked values from index page</b>
+    <pre>
+    <span class="cmnt">&lt;!-- blog image --&gt;</span>
+    <span class="tag">&lt;img</span> <span class="attr">class</span>=&quot;<span class="ic">img-responsive</span>&quot; <span class="attr">src</span>=&quot;<span class="redbg">img/blog/b_001.jpg</span>&quot; <span class="attr">alt</span>=&quot;<span class="ic">blog image</span>&quot;<span class="tag">&gt;</span></pre>
+
+
+    <!-- Contact Contents -->
+    <h3 class="div_details">Contact Section</h3>
+    <p>To change the Contact Email, simplay edit <b>&lt;a <span class="attr">href</span>=" "</b> with your email address.</p>
+    <b>Change the <span class="redclr">Red</span> marked values from index page</b>
+    <pre>
+    <span class="tag">&lt;p&gt;&lt;a</span> <span class="attr">href</span>=&quot;<span class="ic">mailto:</span><span class="redbg">someone@example.com</span>&quot;<span class="tag">&gt;</span><span class="redbg">someone@example.com</span><span class="tag">&lt;/a&gt;&lt;/p&gt;</span></pre>
+    
+    
+    <p>To change the Contact Form <b>Email</b>, address open the <b>php</b> folder and edit <b>contact.php</b> file.</p>
+    <p>Then replace the <span class="redclr"><b>Red</b></span> marked email address with your email address.</p>
+    <img style="margin-bottom:80px; box-shadow:0 7px 21px 0 rgba(0, 0, 0, 0.1);" class="img-responsive" src="assets/img/email.png" alt="mail">
+
+
+
+
+</div>
+        <hr>
+        
+        <h2 id="cssFiles"><strong>CSS Files and Structure</strong></h2>
+
+        <p>I'm using these CSS files in this template.</p>
+
+        <ol>
+            <li>The first one is Bootstrap Framework file.</li>
+            <li>Some plugins and</li>
+            <li>My custom stylesheets</li>
+        </ol>
+       
+        <pre>
+        <span class="cmnt">&lt;!-- ===========================
+        ======================   All CSS Here   ====================== --&gt;</span>
+
+        <span class="cmnt">&lt;!-- bootstrap v3.3.6 css --&gt;</span>
+        <span class="tag">&lt;link</span> <span class="attr">rel</span>=&quot;<span class="ic">stylesheet</span>&quot; <span class="attr">href</span>=&quot;<span class="ic">css/bootstrap.min.css</span>&quot;<span class="tag">&gt;</span>
+        <span class="cmnt">&lt;!-- animate css --&gt;</span>
+        <span class="tag">&lt;link</span> <span class="attr">rel</span>=&quot;<span class="ic">stylesheet</span>&quot; <span class="attr">href</span>=&quot;<span class="ic">css/animate.css</span>&quot;<span class="tag">&gt;</span>
+        <span class="cmnt">&lt;!-- animated-Headlines css --&gt;</span>
+        <span class="tag">&lt;link</span> <span class="attr">rel</span>=&quot;<span class="ic">stylesheet</span>&quot; <span class="attr">href</span>=&quot;<span class="ic">css/animated-headlines.css</span>&quot;<span class="tag">&gt;</span>
+        <span class="cmnt">&lt;!-- owl.carousel css --&gt;</span>
+        <span class="tag">&lt;link</span> <span class="attr">rel</span>=&quot;<span class="ic">stylesheet</span>&quot; <span class="attr">href</span>=&quot;<span class="ic">css/owl.carousel.min.css</span>&quot;<span class="tag">&gt;</span>
+        <span class="cmnt">&lt;!-- magnific-popup css --&gt;</span>
+        <span class="tag">&lt;link</span> <span class="attr">rel</span>=&quot;<span class="ic">stylesheet</span>&quot; <span class="attr">href</span>=&quot;<span class="ic">css/magnific-popup.css</span>&quot;<span class="tag">&gt;</span>
+        <span class="cmnt">&lt;!-- icofont css --&gt;</span>
+        <span class="tag">&lt;link</span> <span class="attr">rel</span>=&quot;<span class="ic">stylesheet</span>&quot; <span class="attr">href</span>=&quot;<span class="ic">css/icofont.css</span>&quot;<span class="tag">&gt;</span>
+        <span class="cmnt">&lt;!-- template-colors css --&gt;</span>
+        <span class="tag">&lt;link</span> <span class="attr">rel</span>=&quot;<span class="ic">stylesheet</span>&quot; <span class="attr">href</span>=&quot;<span class="ic">css/template-colors.css</span>&quot;<span class="tag">&gt;</span>
+        <span class="cmnt">&lt;!-- style css --&gt;</span>
+        <span class="tag">&lt;link</span> <span class="attr">rel</span>=&quot;<span class="ic">stylesheet</span>&quot; <span class="attr">href</span>=&quot;<span class="ic">style.css</span>&quot;<span class="tag">&gt;</span>
+        <span class="cmnt">&lt;!-- responsive css --&gt;</span>
+        <span class="tag">&lt;link</span> <span class="attr">rel</span>=&quot;<span class="ic">stylesheet</span>&quot; <span class="attr">href</span>=&quot;<span class="ic">css/responsive.css</span>&quot;<span class="tag">&gt;</span></pre>
+        
+        <h3>Changing Font</h3>
+        <p>By default, STEP uses 1 Font namely: 'Nunito' from the Google Fonts Library. To change the Font, you will need to Edit the Bottom Link with your Custom Font</p>
+        <p>If you plan to use a Self Hosted font. Here is an Example for using 
+        <a href="http://css-tricks.com/snippets/css/using-font-face/" target="_blank">Self Hosted Font</a>.</p>
+        
+        <pre>
+        <span class="tag">@import</span> <span class="attr">url</span>('<span class="ic">https://fonts.googleapis.com/css?family=Nunito:300,400,700</span>');</pre>
+
+        <p><b>CSS coding standard:</b> We followed css and css3 coding standard. Here is the exampl:</p><br>
+
+        <img style="margin-bottom:80px; box-shadow:0 7px 21px 0 rgba(0, 0, 0, 0.1);" src="assets/img/css_code.png" alt="CSS coding standard" class="img-responsive">
+
+       <hr>
+       
+        <h2 id="javascript"><strong>JavaScript</strong></h2>
+
+        <p>This template imports three Javascript files.</p>
+
+        <ol>
+            <li>jQuery</li>
+            <li>Some plugins and</li>
+            <li>My custom scripts</li>
+        </ol>
+
+        <pre>
+        <span class="cmnt">&lt;!-- ===========================
+        ======================   All JS Here   ====================== --&gt;</span>
+
+        <span class="cmnt">&lt;!-- jquery library --&gt;</span>
+        <span class="tag">&lt;script</span> <span class="attr">src</span>="<span class="ic">js/vendor/jquery-1.12.0.min.js</span>&quot;<span class="tag">&gt;&lt;/script&gt;</span>
+        <span class="cmnt">&lt;!-- bootstrap js --&gt;</span>
+        <span class="tag">&lt;script</span> <span class="attr">src</span>="<span class="ic">js/bootstrap.min.js</span>&quot;<span class="tag">&gt;&lt;/script&gt;</span>
+        <span class="cmnt">&lt;!-- Google Map scripts --&gt;</span>
+        <span class="tag">&lt;script</span> async defer <span class="attr">src</span>="<span class="ic">https://maps.googleapis.com/maps/api/js?key=AIzaSyD0NFNnVEBkKZIrLKyx7gGUfO2QERECjBw&callback=initMap</span>" <span class="attr">type</span>="<span class="ic">text/javascript</span>&quot;<span class="tag">&gt;&lt;/script&gt;</span>
+        <span class="cmnt">&lt;!-- owl.carousel js --&gt;</span>
+        <span class="tag">&lt;script</span> <span class="attr">src</span>="<span class="ic">js/owl.carousel.min.js</span>&quot;<span class="tag">&gt;&lt;/script&gt;</span>
+        <span class="cmnt">&lt;!-- wow js --&gt;</span>
+        <span class="tag">&lt;script</span> <span class="attr">src</span>="<span class="ic">js/wow.min.js</span>&quot;<span class="tag">&gt;&lt;/script&gt;</span>
+        <span class="cmnt">&lt;!-- mixitup js --&gt;</span>
+        <span class="tag">&lt;script</span> <span class="attr">src</span>="<span class="ic">js/mixitup.min.js</span>&quot;<span class="tag">&gt;&lt;/script&gt;</span>
+        <span class="cmnt">&lt;!-- magnific-popup js --&gt;</span>
+        <span class="tag">&lt;script</span> <span class="attr">src</span>="<span class="ic">js/jquery.magnific-popup.min.js</span>&quot;<span class="tag">&gt;&lt;/script&gt;</span>
+        <span class="cmnt">&lt;!-- counterUp js --&gt;</span>
+        <span class="tag">&lt;script</span> <span class="attr">src</span>="<span class="ic">js/jquery.counterup.min.js</span>&quot;<span class="tag">&gt;&lt;/script&gt;</span>
+        <span class="cmnt">&lt;!-- plugins js --&gt;</span>
+        <span class="tag">&lt;script</span> <span class="attr">src</span>="<span class="ic">js/plugins.js</span>&quot;<span class="tag">&gt;&lt;/script&gt;</span>
+        <span class="cmnt">&lt;!-- template-colors js --&gt;</span>
+        <span class="tag">&lt;script</span> <span class="attr">src</span>="<span class="ic">js/template-colors.js</span>&quot;<span class="tag">&gt;&lt;/script&gt;</span>
+        <span class="cmnt">&lt;!-- main js --&gt;</span>
+        <span class="tag">&lt;script</span> <span class="attr">src</span>="<span class="ic">js/main.js</span>&quot;<span class="tag">&gt;&lt;/script&gt;</span></pre>
+
+
+       <hr>
+       
+        <h2 id="credits"><strong>Sources and Credits</strong></h2>
+
+        <p>I've used the following images, icons or other files as listed.</p>
+        
+        <h3 style="margin-bottom:0;">Photos</h3>
+        <ul class="sources_links">
+            <li><a href="http://www.unsplash.com/" target="_blank" title="Unsplash">Unsplash</a></li>
+            <li><a href="https://www.pexels.com/" target="_blank" title="Pexels">Pexels</a></li>
+        </ul>
+        
+        <h3 style="margin-bottom:0;">Css &amp; Fonts</h3>
+        <ul class="sources_links">
+            <li><a href="http://www.getbootstrap.com/" target="_blank" title="Bootstrap">Bootstrap</a></li>
+            <li><a href="https://www.codyhouse.co/gem/css-animated-headlines/" target="_blank" title="Animated-Headlines">Animated-Headlines</a></li>
+            <li><a href="https://owlcarousel2.github.io/OwlCarousel2/" target="_blank" title="Owl Carousel">Owl Carousel</a></li>
+            <li><a href="https://daneden.github.io/animate.css/" target="_blank" title="Animate.css">Animate.css</a></li>
+            <li><a href="http://dimsemenov.com/plugins/magnific-popup/" target="_blank" title="Magnific-Popup">Magnific-Popup</a></li>
+            <li><a href="http://icofont.com/" target="_blank" title="Icofont">Icofont (Icon Font)</a></li>
+            <li>Nunito (Google Font)</li>
+        </ul>
+        
+        <h3 style="margin-bottom:0;">jQuery</h3>
+        <ul class="sources_links">
+            <li><a href="http://www.getbootstrap.com/" target="_blank" title="Bootstrap">Bootstrap</a></li>
+            <li><a href="http://www.mynameismatthieu.com/WOW/" target="_blank" title="WOW js">WOW js</a></li>
+            <li><a href="https://owlcarousel2.github.io/OwlCarousel2/" target="_blank" title="Owl Carousel">Owl Carousel</a></li>
+            <li><a href="https://www.github.com/bfintal/Counter-Up" target="_blank" title="Counter-Up">Counter-Up</a></li>
+            <li><a href="https://www.kunkalabs.com/mixitup/" target="_blank" title="Mixitup">Mixitup</a></li>
+            <li><a href="http://www.dimsemenov.com/plugins/magnific-popup/" target="_blank" title="Magnific-Popup">Magnific-Popup</a></li>
+            <li><a href="https://developers.google.com/maps/documentation/embed/" target="_blank" title="Google Map">Google Map</a></li>
+        </ul>
+
+        <p style="margin-top:80px">Once again, thank you so much for purchasing this template. As I said at the beginning, I'd be glad to help you if you have any questions relating to this template feel free to email via my user page contact from <a href="https://themeforest.net/user/ixtheme" target="_blank">here</a>.</p>
+
+        <hr style="margin-bottom:100px" class="space">
+    </div>
+
+    <!-- jquery latest version -->
+    <script src="assets/js/jquery-1.12.0.min.js"></script>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
