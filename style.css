@@ -11,243 +11,302 @@
 /* --- Default Button Style Start --- */
 
 .step_btn {
-    color: #fff;
-    border-radius: 25px;
-    display: inline-block;
-    height: 45px;
-    letter-spacing: 1px;
-    line-height: 45px;
-    overflow: hidden;
-    padding: 0 35px;
-    position: relative;
-    z-index: 2;
-    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.02);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.02);
+  color: #fff;
+  border-radius: 25px;
+  display: inline-block;
+  height: 45px;
+  letter-spacing: 1px;
+  line-height: 45px;
+  overflow: hidden;
+  padding: 0 35px;
+  position: relative;
+  z-index: 2;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1),
+    0 6px 6px rgba(0, 0, 0, 0.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.02);
 }
 
 .step_btn:hover {
-    color: #2d3e50;
+  color: #2d3e50;
 }
 
 .step_btn::after {
-    background-color: #fff;
-    border-radius: 50%;
-    border: 25px solid #fff;
-    content: "";
-    height: 0px;
-    left: 50%;
-    position: absolute;
-    top: 75%;
-    -webkit-transform: translate(-50%);
-    -ms-transform: translate(-50%);
-    transform: translate(-50%);
-    -webkit-transition: all .5s ease 0s;
-    -o-transition: all .5s ease 0s;
-    transition: all .5s ease 0s;
-    width: 0px;
-    z-index: -1;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 25px solid #fff;
+  content: "";
+  height: 0px;
+  left: 50%;
+  position: absolute;
+  top: 75%;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  width: 0px;
+  z-index: -1;
 }
 
 .step_btn:hover::after {
-    height: 200px;
-    top: -77px;
-    width: 200px;
+  height: 200px;
+  top: -77px;
+  width: 200px;
 }
 
 a.step_btn:focus,
 a.step_btn:active {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
 /* --- Default Button Style End --- */
-
 
 /* =======================================
     07. Portfolio Section Start
 ======================================= */
- #portTitle  {
-    font-family: 'Lora', serif;
-    font-size: 36px;
+#portTitle {
+  font-family: "Lora", serif;
+  font-size: 36px;
 }
 
 .mix {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .portfolio_item {
-    min-height: 175px;
-    overflow: hidden;
-    position: relative;
+  min-height: 175px;
+  overflow: hidden;
+  position: relative;
 }
 
 .portfolio_item::before {
-    background-color: rgba(255, 255, 255, 0);
-    content: "";
-    height: 0;
-    left: 50%;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    -webkit-transition: all 0.6s ease 0.1s;
-    -o-transition: all 0.6s ease 0.1s;
-    transition: all 0.6s ease 0.1s;
-    -webkit-transform: translate(-50%);
-    -ms-transform: translate(-50%);
-    transform: translate(-50%);
-    width: 0;
+  background-color: rgba(255, 255, 255, 0);
+  content: "";
+  height: 0;
+  left: 50%;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: all 0.6s ease 0.1s;
+  -o-transition: all 0.6s ease 0.1s;
+  transition: all 0.6s ease 0.1s;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+  width: 0;
 }
 
 .portfolio_item:hover::before {
-    height: 100%;
-    opacity: .9;
-    top: 0;
-    -webkit-transition: all 0.8s ease 0.1s;
-    -o-transition: all 0.8s ease 0.1s;
-    transition: all 0.8s ease 0.1s;
-    width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  top: 0;
+  -webkit-transition: all 0.8s ease 0.1s;
+  -o-transition: all 0.8s ease 0.1s;
+  transition: all 0.8s ease 0.1s;
+  width: 100%;
 }
 
 .portfolio_filter ul li:first-child {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .portfolio_filter ul li {
-    color: #2d3e50;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 16px;
-    padding: 5px;
-    -webkit-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
+  color: #2d3e50;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  padding: 5px;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
 }
 
 .portfolio_filter li button {
-    background: transparent;
-    border: 0;
-    outline: 0;
+  background: transparent;
+  border: 0;
+  outline: 0;
 }
 
 .portfolio_item_inner {
-    /* color: #fff; */
-    left: 0;
-    line-height: 40px;
-    position: absolute;
-    text-align: center;
-    text-transform: capitalize;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    -webkit-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    width: 100%;
+  /* color: #fff; */
+  left: 0;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  text-transform: capitalize;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 100%;
 }
 
 .portfolio_item_inner h3,
 .portfolio_item_inner p {
-    text-shadow: 0 0 10px #2D3E50;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: all .6s;
-    -o-transition: all .6s;
-    transition: all .6s;
+  text-shadow: 0 0 10px #2d3e50;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  transition: all 0.6s;
 }
 
 .portfolio_item_inner h3 {
-    -webkit-transform: translateY(40px);
-    -ms-transform: translateY(40px);
-    transform: translateY(40px);
+  -webkit-transform: translateY(40px);
+  -ms-transform: translateY(40px);
+  transform: translateY(40px);
 }
 
 .portfolio_item_inner p {
-    margin: 0;
-    -webkit-transform: translateY(-40px);
-    -ms-transform: translateY(-40px);
-    transform: translateY(-40px);
+  margin: 0;
+  -webkit-transform: translateY(-40px);
+  -ms-transform: translateY(-40px);
+  transform: translateY(-40px);
 }
 
 .portfolio_item:hover .portfolio_item_inner h3 {
-    -webkit-transform: translateY(-5px);
-    -ms-transform: translateY(-5px);
-    transform: translateY(-5px);
-    -webkit-transition: all .6s;
-    -o-transition: all .6s;
-    transition: all .6s;
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+  -webkit-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  transition: all 0.6s;
 }
 
 .portfolio_item:hover .portfolio_item_inner p {
-    -webkit-transform: translateY(3px);
-    -ms-transform: translateY(3px);
-    transform: translateY(3px);
-    -webkit-transition: all .6s;
-    -o-transition: all .6s;
-    transition: all .6s;
+  -webkit-transform: translateY(3px);
+  -ms-transform: translateY(3px);
+  transform: translateY(3px);
+  -webkit-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  transition: all 0.6s;
 }
 
 .portfolio_item:hover .portfolio_item_inner h3,
 .portfolio_item:hover .portfolio_item_inner p {
-    -webkit-transition-delay: .7s;
-    -o-transition-delay: .7s;
-    transition-delay: .7s;
-    opacity: 1;
-    visibility: visible;
+  -webkit-transition-delay: 0.7s;
+  -o-transition-delay: 0.7s;
+  transition-delay: 0.7s;
+  opacity: 1;
+  visibility: visible;
 }
 
 a.port_item {
-    color: #2d3e50;
-    background-color: #fff;
-    border-radius: 30px;
-    display: inline-block;
-    height: 30px;
-    line-height: 30px;
-    opacity: 0;
-    position: relative;
-    -webkit-transform: scale(2);
-    -ms-transform: scale(2);
-    transform: scale(2);
-    visibility: hidden;
-    width: 55px;
-    z-index: 1;
-    -webkit-transition: all 0.1s;
-    -o-transition: all 0.1s;
-    transition: all 0.1s;
+  color: #2d3e50;
+  background-color: #fff;
+  border-radius: 30px;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  opacity: 0;
+  position: relative;
+  -webkit-transform: scale(2);
+  -ms-transform: scale(2);
+  transform: scale(2);
+  visibility: hidden;
+  width: 55px;
+  z-index: 1;
+  -webkit-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  transition: all 0.1s;
 }
 
 .portfolio_item:hover a.port_item {
-    opacity: 1;
-    visibility: visible;
-    -webkit-transition: all 0.4s ease 0.1s;
-    -o-transition: all 0.4s ease 0.1s;
-    transition: all 0.4s ease 0.1s;
-    -webkit-transition-delay: .5s;
-    -o-transition-delay: .5s;
-    transition-delay: .5s;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: all 0.4s ease 0.1s;
+  -o-transition: all 0.4s ease 0.1s;
+  transition: all 0.4s ease 0.1s;
+  -webkit-transition-delay: 0.5s;
+  -o-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
 }
 
 a.port_item i {
-    -webkit-transition: all .1s;
-    -o-transition: all .1s;
-    transition: all .1s;
-    -webkit-transform: rotate(44deg);
-    -ms-transform: rotate(44deg);
-    transform: rotate(44deg);
+  -webkit-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  transition: all 0.1s;
+  -webkit-transform: rotate(44deg);
+  -ms-transform: rotate(44deg);
+  transform: rotate(44deg);
 }
 
 a.port_item:hover i {
-    -webkit-transform: scale(1.3) rotate(44deg);
-    -ms-transform: scale(1.3) rotate(44deg);
-    transform: scale(1.3) rotate(44deg);
+  -webkit-transform: scale(1.3) rotate(44deg);
+  -ms-transform: scale(1.3) rotate(44deg);
+  transform: scale(1.3) rotate(44deg);
 }
-
 
 /* =======================================
     07. Portfolio Section End
 ======================================= */
 
+/* ---------------------
+------------ 06. default colors ---------------- */
 
+.step_btn,
+.section_title p::after,
+.section_title p::before,
+.skillBar,
+.expreince_wrapper .exp_icon,
+.portfolio_item:hover::before,
+.service_item .service_item_inner:hover::after,
+.service_item .service_item_inner:hover::before,
+.service_item_inner i,
+.owl-dots .owl-dot.active span,
+.owl-dots .owl-dot:hover span {
+  background-color: #4aaaa5;
+}
+
+.mixitup-control-active,
+.blog_links a:hover,
+.address i {
+  color: #4aaaa5 !important;
+}
+
+.skillText,
+.section_title p,
+.form-control:focus,
+.form-control:hover {
+  border-color: #4aaaa5;
+}
+
+/* Apple Green */
+
+.bgcolor1,
+.cng_bgcolor1 .step_btn,
+.cng_bgcolor1 .section_title p::after,
+.cng_bgcolor1 .section_title p::before,
+.cng_bgcolor1 .skillBar,
+.cng_bgcolor1 .expreince_wrapper .exp_icon,
+.cng_bgcolor1 .portfolio_item:hover::before,
+.cng_bgcolor1 .service_item .service_item_inner:hover::after,
+.cng_bgcolor1 .service_item .service_item_inner:hover::before,
+.cng_bgcolor1 .service_item_inner i,
+.cng_bgcolor1 .owl-dots .owl-dot.active span,
+.cng_bgcolor1 .owl-dots .owl-dot:hover span {
+  background-color: #4aaaa5;
+}
+
+.cng_bgcolor1 .mixitup-control-active,
+.cng_bgcolor1 .blog_links a:hover,
+.cng_bgcolor1 .address i,
+.cng_bgcolor1 .theme_panel i {
+  color: #4aaaa5 !important;
+}
+
+.cng_bgcolor1 .skillText,
+.cng_bgcolor1 .section_title p,
+.cng_bgcolor1 .form-control:focus,
+.cng_bgcolor1 .form-control:hover,
+.cng_bgcolor1 .theme_panel,
+.cng_bgcolor1 .theme_panel i {
+  border-color: #4aaaa5;
+}
