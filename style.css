@@ -1,13 +1,3 @@
-/*==============================================================================
-
- * Template Name: Step - One Page Creative Portfolio Template.
- * Template URI: 
- * Author: ixTheme
- * Description: Responsive HTML5 Template
- * Version: 1.0
- * Copyright 2017 ixTheme
-
-
 /* --- Default Button Style Start --- */
 
 .step_btn {
@@ -60,11 +50,6 @@ a.step_btn:active {
   text-decoration: none;
 }
 
-/* --- Default Button Style End --- */
-
-/* =======================================
-    07. Portfolio Section Start
-======================================= */
 #portTitle {
   font-family: "Lora", serif;
   font-size: 36px;

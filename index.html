@@ -3,8 +3,8 @@
 
 <head>
     <title>Danielle LaMorte | Developer</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-        crossorigin="anonymous">
+   <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <!-- animated-headlines.css css -->
     <link rel="stylesheet" href="css/animated-headlines.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+
     <!-- owl.carousel css -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <!-- magnific-popup css -->
@@ -26,9 +26,9 @@
     <!-- style css -->
     <link rel="stylesheet" href="style.css">
     <!-- responsive css -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 
-    <link rel="stylesheet" href="main.live.css">
+    <link rel="stylesheet" href="main.css">
 
     <!-- modernizr js -->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -37,14 +37,21 @@
 
     <body>
         <header>
-            <div class="row">
-                <div class="col">
-                    <h1>Danielle LaMorte</h1>
+            <div class="row" >
+                <div class= "col-12 col-lg-6 ">
+                    <h2 class="wow zoomIn  clip cd-headline" data-wow-duration="1.0s" data-wow-delay="0.5s"> D
+                        <span class="cd-words-wrapper">  
+                            <b class="is-visible"> anielle</b>
+                            <b>eveloper</b>
+                            
+                            <b>esigner</b>
+                        </span>
+                       </h2>
                     
                 </div>
-                <div class="col">
-                    <nav class = >
-                        <ul>
+                <div class=" col-12 col-lg-6 ">
+                    <nav >
+                        <ul >
                             <li>
                                 <a href="#about">About</a>
                             </li>
@@ -62,16 +69,18 @@
                 </div>
             
             </div>
-            <h2  class="wow zoomIn  clip cd-headline" data-wow-duration="1.0s" data-wow-delay="0.5s">
-                Hi,</span> I 
+            <!-- <h2  class="wow zoomIn  clip cd-headline" data-wow-duration="1.0s" data-wow-delay="0.5s">
+               <span>Hi,</span>  I 
                 <span class="cd-words-wrapper">  
                     <b class="is-visible">design</b>
                     <b>develop</b>
                     
                     <b>create beautful websites</b>
                 </span>
-            </h2>
-               <h3>I love creative problem solving, communication, and creating websites.</h3> 
+            </h2> -->
+            
+            <h1>My name is <span>Danielle LaMorte</span>
+               and I love creating websites.</h1> 
         </header>
 
         <main>
@@ -113,26 +122,25 @@
                         </div>
                     </div>
             </section>
-
             <section id="work">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="HTMLIcon.png" alt="HTML icon" />
+                            <img src="assets/icons/HTMLIcon.png" alt="HTML icon" />
                             <h3>Hand-Crafted HTML</h3>
                             <p>My focus is writing well formatted, semantic HTML5. I make sure that the code is easy to
                                 read, to use in collaboration, to trouble-shoot and to access. I can do the same for
                                 your website copy, if you are interested.</p>
                         </div>
                         <div class="col-md-4">
-                            <img src="CSSIcon.png" alt="CSS icon" />
+                            <img src="assets/icons/CSSIcon.png" alt="CSS icon" />
                             <h3>Lean and Clean CSS</h3>
                             <p>I pride myself on writing CSS that is easy to read and expand. I focus on keeping my CSS
                                 lean and fast to load, and I make it a habit to stay up to date on current best
                                 practices.</p>
                         </div>
                         <div class="col-md-4">
-                            <img src="PencilIcon.png" alt="Pencil icon" />
+                            <img src="assets/icons/PencilIcon.png" alt="Pencil icon" />
                             <h3>Ease Converting Designs into Code</h3>
                             <p>I render perfect recreations of designers' PSDs, quickly bringing them to life on the
                                 web.</p>
@@ -140,6 +148,8 @@
                         </div>
                     </div>
                 </div>
+                </section> 
+                <!--End work section-->
                 <section id="portfolio" class="portfolio_wrapper">
                     <div class="container">
 
@@ -149,7 +159,7 @@
 
                             <div class="portfolio_items" id="portfolio">
                                 <div class="row">
-                                    <div class="col-lg-4 col-md-6 col-sm-12 mix cat-2">
+                                    <div class="col-lg-4 col-md-6 col-12 mix cat-2">
                                         <div class="portfolio_item wow fadeIn" data-wow-delay=".2s">
                                             <div class="portfolio_item_inner">
                                                 <h3>GIPHY App</h3>
@@ -164,7 +174,7 @@
                                             </a>
                                         </div><!-- end div portfolio item -->
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-12 mix cat-1 cat-3">
+                                    <div class="col-lg-4 col-md-6 col-12 mix cat-1 cat-3">
                                         <div class="portfolio_item wow fadeIn" data-wow-delay=".2s">
                                             <div class="portfolio_item_inner">
                                                 <h3>ETA Train App</h3>
@@ -180,7 +190,7 @@
                                             </a>
                                         </div><!-- end div portfolio item -->
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-12 mix cat-3 cat-2">
+                                    <div class="col-lg-4 col-md-6 col-12 mix cat-3 cat-2">
                                         <div class="portfolio_item wow fadeIn" data-wow-delay=".2s">
                                             <div class="portfolio_item_inner">
                                                 <h3>Psychic Game</h3>
@@ -197,7 +207,7 @@
                                         </div><!-- end div portfolio item -->
                                     </div><!-- end div portfolio column -->
                        
-                                    <div class="col-lg-4 col-md-6 col-sm-12 mix cat-1 cat-3">
+                                    <div class="col-lg-4 col-md-6 col-12 mix cat-1 cat-3">
                                         <div class="portfolio_item wow fadeIn" data-wow-delay=".3s">
                                             <div class="portfolio_item_inner">
                                                 <h3>Coin Compare</h3>
@@ -212,7 +222,7 @@
                                         </a>
                                         </div><!-- end div portfolio item -->
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-12 mix cat-2">
+                                    <div class="col-lg-4 col-md-6 col-12 mix cat-2">
                                         <div class="portfolio_item wow fadeIn" data-wow-delay=".3s">
                                             <div class="portfolio_item_inner">
                                                 <h3>Eat-a-Burger</h3>
@@ -227,7 +237,7 @@
                                         </a>
                                         </div><!-- end div portfolio item -->
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-12 mix cat-1">
+                                    <div class="col-lg-4 col-md-6 col-12 mix cat-1">
                                         <div class="portfolio_item wow fadeIn" data-wow-delay=".3s">
                                             <div class="portfolio_item_inner">
                                                 <h3>BAMAZON</h3>
@@ -236,20 +246,20 @@
                                                 </a>
                                                 <p>Focus: MySQL</p>
                                             </div>
-                                            
+                        
                                             <!-- portfolio item image -->
                                             <a  href="https://github.com/Lorica7/bamazon">
                                             <img class="img-responsive" src="assets/images/Bamazon.png" alt="Graphics">
                                         </a>
                                         </div> <!-- end div portfolio item -->
                                     </div>
-                                </div>
+                                </div> <!-- end row-->
                             </div> <!-- end div portfolio items -->
                         </div><!-- end div portfolio content -->
                     </div>
                 </section><!-- end section portfolio -->
                 <!-- portfolioEnd -->
-            </section>
+           
             <footer id="contact">
                 <div class="row">
                     <div class="col">
@@ -259,25 +269,25 @@
                         <h2>Interested in knowing more?</h2>
                         <h3 id="email-header">Let's start a conversation</h3>
                         <a href="mailto:dlamorte@dlamorte.org">
-                            <img src="Envelope.png" id="envelope" alt="envelope icon" />
+                            <img src="assets/icons/Envelope.png" id="envelope" alt="envelope icon" />
                             <h5>dlamorte@dlamorte.org</h5>
                         </a>
                         <h3 id="socialmedia-header">Or, come find me on the interwebs.</h3>
                         <ul>
                             <li>
-                                <a href="twitter" target="_blank">
-                                    <img src="Twitter.png" alt="twitter icon">
+                                <a href="assets/icons/twitter" target="_blank">
+                                    <img src="assets/iconsTwitter.png" alt="twitter icon">
                                 </a>
                             </li>
 
                             <li>
-                                <a href="LinkedIn" target="_blank">
-                                    <img src="LinkedIn.png" alt="LinkedIn icon">
+                                <a href="assets/icons/LinkedIn" target="_blank">
+                                    <img src="assets/iconsLinkedIn.png" alt="LinkedIn icon">
                                 </a>
                             </li>
                             <li>
                                 <a href="https://github.com/" target="_blank">
-                                    <img src="GitHub.png" alt="Github icon">
+                                    <img src="assets/icons/GitHub.png" alt="Github icon">
                                 </a>
                             </li>
                         </ul>
