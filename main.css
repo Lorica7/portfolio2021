@@ -7,7 +7,7 @@ body {
   /* background: url(;   ("daniele-levis-pelusi.jpg")  */
   background-size: cover;
   color: whitesmoke;
-  background: url(assets/images/sky.jpg) no-repeat center center fixed;
+  background: url(img/sunset.jpg) no-repeat center fixed;
   height: 100%;
   width: 100%;
   overflow: auto;
@@ -24,18 +24,19 @@ body {
 /***Header***/
 
 header {
-  min-height: 800 px;
+  min-height: 300 px;
 }
 header h1 {
   padding: 50px 0;
+  /* color: #6ea3a2; */
   color: whitesmoke;
-  font-family: "Poiret One", cursive;
+  font-family: "Lora";
   font-size: 30px;
 }
 
 nav {
-  /* float: right; */
   padding: 75px 10px;
+  background: #2b5bbd;
 }
 nav ul li {
   display: inline-block;
@@ -44,24 +45,25 @@ nav li a {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 18px;
-  color: #2b5bbd;
+  color: whitesmoke;
   padding-left: 40px;
 }
 
 header h2 {
   clear: both;
-  font-family: "Poiret One", cursive;
+  font-family: "Lora";
   font-size: 48px;
   line-height: 60px;
   color: whitesmoke;
   padding: 50px 0;
 }
 span {
-  color: #2b5bbd;
+  color: whitesmoke;
 }
 /****** ABOUT ******/
 #about {
-  background: rgba(36, 26, 26, 0.3);
+  background: rgba(36, 26, 26, 0.8);
+  margin: 200px 30px 300px;
 }
 
 #about .full-width {
@@ -82,10 +84,9 @@ span {
 /****** WORK ******/
 
 #work {
-  background: rgba(36, 26, 26, 0.3);
+  background: rgba(36, 26, 26, 0.8);
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 400px 30px;
 }
 
 #work img {
@@ -118,21 +119,26 @@ span {
 
 /* Portfolio */
 
+/* .col-lg-4.col-md-6.col-12 {
+  margin: 30px;
+} */
+
 #portTitle {
   font-family: "Poiret One", cursive;
   font-size: 36px;
 }
 #portfolio-b {
-  background: rgba(36, 26, 26, 0.3);
+  background: rgba(36, 26, 26, 0.8);
   padding: 60px 60px 120px;
-  margin-bottom: 120px;
+  margin-bottom: 400px 30px;
 }
 /****** CONTACT ******/
 
 #contact {
   padding: 60px 60px;
   margin: 80px 80px;
-  background: rgba(36, 26, 26, 0.3);
+  background: rgba(36, 26, 26, 0.8);
+  margin: 400px 30px;
 }
 #contact-img {
   border: 5px solid #ffffff;
