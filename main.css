@@ -1,11 +1,17 @@
 /****** BASE STYLES ******/
 
 /*color: #cb806f */
+
 body {
   font-family: "Source Sans Pro", sans-serif;
-  background: url("assets/images/sky.jpg");
+  /* background: url(;   ("daniele-levis-pelusi.jpg")  */
   background-size: cover;
   color: whitesmoke;
+  background: url(assets/images/sky.jpg) no-repeat center center fixed;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  margin: 0px;
 }
 
 /****** GRID ******/
@@ -23,7 +29,7 @@ header {
 header h1 {
   padding: 50px 0;
   color: whitesmoke;
-  font-family: Lora;
+  font-family: "Poiret One", cursive;
   font-size: 30px;
 }
 
@@ -44,7 +50,7 @@ nav li a {
 
 header h2 {
   clear: both;
-  font-family: Lora;
+  font-family: "Poiret One", cursive;
   font-size: 48px;
   line-height: 60px;
   color: whitesmoke;
@@ -55,7 +61,7 @@ span {
 }
 /****** ABOUT ******/
 #about {
-  background: rgba(36, 26, 26, 0.2);
+  background: rgba(36, 26, 26, 0.3);
 }
 
 #about .full-width {
@@ -63,12 +69,12 @@ span {
 }
 
 #about h2 {
-  font-family: "Lora", serif;
+  font-family: "Poiret One", cursive;
   font-size: 36px;
 }
 #about p {
   font-size: 21px;
-  color: #2b5bbd;
+  color: whitesmoke;
   line-height: 42px;
   padding-right: 50px;
 }
@@ -76,7 +82,7 @@ span {
 /****** WORK ******/
 
 #work {
-  background: rgba(36, 26, 26, 0.2);
+  background: rgba(36, 26, 26, 0.3);
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -87,16 +93,17 @@ span {
 }
 
 #work h3 {
+  font-family: "Poiret One", cursive;
+  color: #2b5bbd;
   font-size: 24px;
   width: 190px;
   margin: 0 auto;
 }
 
 #work p {
-  font-family: "Lora", serif;
   font-size: 18px;
   line-height: 30px;
-  color: #2b5bbd;
+  color: whitesmoke;
   padding: 0 35px;
 }
 
@@ -112,15 +119,20 @@ span {
 /* Portfolio */
 
 #portTitle {
-  font-family: "Lora", serif;
+  font-family: "Poiret One", cursive;
   font-size: 36px;
 }
-
+#portfolio-b {
+  background: rgba(36, 26, 26, 0.3);
+  padding: 60px 60px 120px;
+  margin-bottom: 120px;
+}
 /****** CONTACT ******/
 
 #contact {
-  padding: 30px 0px;
-  margin: 10px;
+  padding: 60px 60px;
+  margin: 80px 80px;
+  background: rgba(36, 26, 26, 0.3);
 }
 #contact-img {
   border: 5px solid #ffffff;
@@ -142,7 +154,7 @@ h5 {
 }
 
 #contact h2 {
-  font-family: "Lora", serif;
+  font-family: "Poiret One", cursive;
   font-size: 36px;
 }
 #email-header {
@@ -151,7 +163,6 @@ h5 {
   margin: 5px 0 5px 0;
 }
 #socialmedia-header {
-  font-weight: bold;
   font-size: 29px;
   margin: 40px 0 0px 0;
 }

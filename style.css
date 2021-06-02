@@ -1,5 +1,3 @@
-/* --- Default Button Style Start --- */
-
 .step_btn {
   color: #fff;
   border-radius: 25px;
@@ -51,7 +49,7 @@ a.step_btn:active {
 }
 
 #portTitle {
-  font-family: "Lora", serif;
+  font-family: "Poiret One", cursive;
   font-size: 36px;
 }
 
@@ -229,13 +227,6 @@ a.port_item:hover i {
   transform: scale(1.3) rotate(44deg);
 }
 
-/* =======================================
-    07. Portfolio Section End
-======================================= */
-
-/* ---------------------
------------- 06. default colors ---------------- */
-
 .step_btn,
 .section_title p::after,
 .section_title p::before,
@@ -247,23 +238,21 @@ a.port_item:hover i {
 .service_item_inner i,
 .owl-dots .owl-dot.active span,
 .owl-dots .owl-dot:hover span {
-  background-color: #4aaaa5;
+  background-color: #2b5bbd;
 }
 
 .mixitup-control-active,
 .blog_links a:hover,
 .address i {
-  color: #4aaaa5 !important;
+  color: #2b5bbd;
 }
 
 .skillText,
 .section_title p,
 .form-control:focus,
 .form-control:hover {
-  border-color: #4aaaa5;
+  border-color: #2b5bbd;
 }
-
-/* Apple Green */
 
 .bgcolor1,
 .cng_bgcolor1 .step_btn,
@@ -277,14 +266,14 @@ a.port_item:hover i {
 .cng_bgcolor1 .service_item_inner i,
 .cng_bgcolor1 .owl-dots .owl-dot.active span,
 .cng_bgcolor1 .owl-dots .owl-dot:hover span {
-  background-color: #4aaaa5;
+  background-color: #2b5bbd;
 }
 
 .cng_bgcolor1 .mixitup-control-active,
 .cng_bgcolor1 .blog_links a:hover,
 .cng_bgcolor1 .address i,
 .cng_bgcolor1 .theme_panel i {
-  color: #4aaaa5 !important;
+  color: #2b5bbd;
 }
 
 .cng_bgcolor1 .skillText,
@@ -293,5 +282,5 @@ a.port_item:hover i {
 .cng_bgcolor1 .form-control:hover,
 .cng_bgcolor1 .theme_panel,
 .cng_bgcolor1 .theme_panel i {
-  border-color: #4aaaa5;
+  border-color: #2b5bbd;
 }
