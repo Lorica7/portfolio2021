@@ -1,9 +1,7 @@
 (function ($) {
     "use strict";
 
-    /*----------------------------
-     templateColor
-    ------------------------------ */
+
 
     $('.color_panel i').on('click', function () {
         $(".color_panel").toggleClass("show_color_panel");

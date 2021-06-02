@@ -83,6 +83,10 @@ span {
 
 /****** WORK ******/
 
+.col-md-4 {
+  padding: 50px 30px;
+}
+
 #work {
   background: rgba(36, 26, 26, 0.8);
   text-align: center;
@@ -115,6 +119,11 @@ span {
 
 #tech a {
   color: white;
+}
+
+.code-icon {
+  height: 150px;
+  width: 150px;
 }
 
 /* Portfolio */
