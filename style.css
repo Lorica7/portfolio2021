@@ -49,7 +49,7 @@ a.step_btn:active {
 }
 
 #portTitle {
-  font-family: "Poiret One", cursive;
+  font-family: "Lora";
   font-size: 36px;
 }
 
@@ -244,7 +244,7 @@ a.port_item:hover i {
 .mixitup-control-active,
 .blog_links a:hover,
 .address i {
-  color: #2b5bbd;
+  color: whitesmoke;
 }
 
 .skillText,
@@ -273,7 +273,7 @@ a.port_item:hover i {
 .cng_bgcolor1 .blog_links a:hover,
 .cng_bgcolor1 .address i,
 .cng_bgcolor1 .theme_panel i {
-  color: #2b5bbd;
+  color: whitesmoke;
 }
 
 .cng_bgcolor1 .skillText,
