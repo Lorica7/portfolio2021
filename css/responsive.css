@@ -136,4 +136,16 @@
     display: flex;
     justify-content: center;
   }
+
+  .top-row {
+    margin: 7% 4%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .room {
+    margin-top: 25%;
+  }
 }
