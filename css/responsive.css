@@ -126,6 +126,14 @@
 }
 
 @media (min-width: 768px) {
+  header h1 {
+    padding: 50px 0;
+    /* color: #6ea3a2; */
+    color: whitesmoke;
+    font-family: "Lora";
+    font-size: 54px;
+  }
+
   .work-item {
     margin: 15% 4%;
     display: flex;
