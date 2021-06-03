@@ -2,16 +2,19 @@
 
 /*color: #cb806f */
 
+
 body {
   font-family: "Source Sans Pro", sans-serif;
-
-  background-size: cover;
-  color: whitesmoke;
-  background: url(../assets/images/sunset.jpg) no-repeat center fixed;
-  height: 100%;
+color: whitesmoke;
+background-size: cover;
+ 
+  background: url(../assets/images/sunset.jpg) no-repeat  center center fixed;
+  min-height: 100%;
   width: 100%;
   overflow: auto;
-  margin: 0px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 /****** GRID ******/
@@ -215,7 +218,7 @@ h5 {
   color:whitesmoke;
 }
 
-.img-responsive.code-icon{
+.img-responsve.code-icon{
   max-height: 320px;
   width: 30%;
   display: flex;

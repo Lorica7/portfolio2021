@@ -156,4 +156,21 @@
   .room {
     margin-top: 25%;
   }
+
+  body {
+    background-color: #2b5bbd;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body:before {
+    content: "";
+    background-image: url("(../assets/images/sunset.jpg");
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
