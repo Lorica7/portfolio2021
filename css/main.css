@@ -7,7 +7,7 @@ body {
 
   background-size: cover;
   color: whitesmoke;
-  background: url(assets/images/sunset.jpg) no-repeat center fixed;
+  background: url(../assets/images/sunset.jpg) no-repeat center fixed;
   height: 100%;
   width: 100%;
   overflow: auto;
@@ -133,10 +133,11 @@ span {
 #portTitle {
   font-family: "Lora";
   font-size: 36px;
+  text-align: center;
 }
 #portfolio-b {
   background: rgba(36, 26, 26, 0.8);
-  padding: 60px 60px 120px;
+  padding: 60px 20px 120px;
   margin-bottom: 400px 30px;
 }
 
@@ -206,3 +207,9 @@ h5 {
 #link{
   color:whitesmoke;
 }
+
+.img-responsive{
+  max-height: 320px;
+  width: 500px;
+}
+

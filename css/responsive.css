@@ -124,3 +124,16 @@
     font-size: 14px;
   }
 }
+
+@media (min-width: 768px) {
+  .work-item {
+    margin: 15% 4%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .portfolio-item {
+    display: flex;
+    justify-content: center;
+  }
+}
